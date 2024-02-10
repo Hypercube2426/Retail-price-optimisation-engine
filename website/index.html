@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Price Optimization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Retail Price Optimization</h1>
+        <form id="priceOptimizationForm">
+            <label for="productCategory">Product Category:</label>
+            <input type="text" id="productCategory" name="productCategory">
+
+            <label for="productAttributes">Product Attributes:</label>
+            <textarea id="productAttributes" name="productAttributes"></textarea>
+
+            <label for="pricingStrategy">Pricing Strategy:</label>
+            <select id="pricingStrategy" name="pricingStrategy">
+                <option value="cost-plus">Cost-Plus</option>
+                <option value="competitor-based">Competitor-Based</option>
+            </select>
+
+            <label for="historicalSalesData">Historical Sales Data:</label>
+            <textarea id="historicalSalesData" name="historicalSalesData"></textarea>
+
+            <button type="submit">Optimize Price</button>
+        </form>
+
+        <div id="priceOptimizationResults">
+            <!-- Price optimization results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
